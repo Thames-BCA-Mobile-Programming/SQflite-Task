@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginBottom="8dp" />
+
+    />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number"
+        android:layout_marginBottom="10dp" />
+    />
+
+    <EditText
+        android:id="@+id/occupationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Occupation"
+        android:layout_marginBottom="10dp" />
+    />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginBottom="10dp" />
+    />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to List"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/listViewButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Show in List View"-->
+<!--        android:textColor="@color/purple"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/gridViewButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Show in Grid View" />-->
+
+    <Button
+        android:id="@+id/recyclerViewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show in Recycler View"
+        android:textColor="@color/purple"/>
+
+</LinearLayout>
